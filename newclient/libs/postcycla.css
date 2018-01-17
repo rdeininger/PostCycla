@@ -1,0 +1,59 @@
+*
+{
+	text-shadow: none !important;
+}
+
+html, body 
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#Bike
+{
+	padding: 10px;
+}
+
+#map-canvas
+{
+	float:left;
+}
+
+#DataGrid
+{
+	width: 20%;
+	min-width: 150px;
+}
+/* DataGrid */
+.DataGrid
+{
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;	
+	font-size: 2.5vh;	
+}
+
+.InfText span
+{
+	padding-left: 10px;
+}
+.InfHeader
+{
+	text-align:right;	
+	background-color: #7D7D13;
+}
+
+/* StatusBar */
+.StatusBar span
+{
+	font-size: 80%;
+	padding:3px;
+}
+
+#popupPowerSettings
+{
+    width: 50vw;
+    left: auto;
+    right: 0;
+}

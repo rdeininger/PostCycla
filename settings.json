@@ -1,0 +1,33 @@
+{
+	"UseMockups": true,
+	"DebugOutput": false,
+	"PowerCalc":
+	{
+		"MinimumJoulperMeter": 16,
+		"BikeWeightKG" : 10,
+		"RiderWeightKG" : 95,
+		"FrontArea" :  0.55,
+		"DragCoeff" : 0.7,
+        "DriveDrainLoss" : 4,
+		"RollingResistance" : 0.005,
+		"PowerOffset": 1.1
+	},
+	"WebSocketPort" : 9998,
+	"HttpPort" : 8125,
+	"GPXDir": "./tracks",
+	"Smooth": 0.2,	
+	"Sensors": 
+	{
+		"HeartRate_AntId" : 30250,
+		"Cadence_AntId": 59056,
+		"STM":
+		{
+			"ComPort" : "/dev/ttyACM0",
+			"ServoOffset": 
+			{ 
+				"Min" : 0.2,
+				"Max" : 0.9
+			} 
+		}
+	} 
+}
