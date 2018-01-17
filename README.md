@@ -1,7 +1,7 @@
 # PostCycla
 Is a DIY project to create a smart bike trainer with "virtal ride" capability, using a Raspberry Pi and Node.js for the server and a Web UI on the client side. A STM32 MCU Nucleo with a CNY 70 sensor and a servo will get data from the trainer and set the resistance.
 
-For testing and development mockup implementations of all sensors and actuators are available at: [Running the tests](#Running-the-tests)
+For testing and development mockup implementations of all sensors and actuators are available at: [Running the tests](#running-the-tests)
 
 To set up sensors and actuators you can use any microcontroller to read/control sensors and a servo.
 Every component was encapsulated to allow easy swapping of sensors, controllers or provide another way of sensing distance/speed and setting resistance on the trainer.
@@ -13,14 +13,14 @@ Future modules/components will include a way to directly read data and set resis
 
 ### On Windows
 * Clone the repository
-* Install the [Node modules](#Installing)
-* [Start everything](#How-to-start) 
+* Install the [Node modules](#installing)
+* [Start everything](#how-to-start) 
 
 ### On Raspberry
 * Set up a Raspberry Pi with NodeJs.
 * Clone the repository and copy it to the Raspberry
-* Install the [Node modules](#Installing)
-* [Start everything](#How-to-start) 
+* Install the [Node modules](#installing)
+* [Start everything](#how-to-start) 
 
 
 ## Prerequisites
@@ -71,7 +71,7 @@ npm install express --save
 ```
 ## Running the tests
 
-To test PostCycla itself you can set the "UseMockups" and "DebugOutput" flags in the "settings.json" file and [start the program](#Running-the-program).
+To test PostCycla itself you can set the "UseMockups" and "DebugOutput" flags in the "settings.json" file and [start the program](#running-the-program).
 ```
 ...
 	"UseMockups": true,    
@@ -80,7 +80,7 @@ To test PostCycla itself you can set the "UseMockups" and "DebugOutput" flags in
 ```
 In the "test" folder you will find test for the calculation and hardware components.
 
-For hardware testing you can also use the [hardware mockup code](#Arduino-hw-mockup).
+For hardware testing you can also use the [hardware mockup code](#arduino-hw-mockup).
 
 **Calculations**
 
@@ -118,7 +118,7 @@ node test/hardware/testSTMSensor.js
 This test will try and get data from the STM32/Arduino and check the output
 *   Should return a console ouput with the data from the module
 
-For hardware testing you can also use the [hardware mockup code](#Arduino-hw-mockup).
+For hardware testing you can also use the [hardware mockup code](#arduino-hw-mockup).
 
 ## Running the program
 ### Setup
