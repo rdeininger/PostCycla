@@ -12,6 +12,7 @@
 * @version 1.0
 */
 
+var Settings = require('../settings.js');
 var Ant = require('./antplus.js');
 
 /**

@@ -10,7 +10,7 @@
 * @author Richard Deininger
 * @version 1.0
 */
-
+var Settings = require('../settings.js');
 var Ant = require('./antplus.js');
 
 var AntSensors = function(HR_dev_id, CAD_dev_id)
